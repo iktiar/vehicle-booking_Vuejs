@@ -4,9 +4,6 @@
     <div class="row">
         <div class="col-xs-12">
             <router-view></router-view>
-            <!--  <CompletedTodos></CompletedTodos>
-            <GetTodo></GetTodo>
-            <CurrentTodos></CurrentTodos> -->
         </div>
     </div>
   </div>
@@ -14,17 +11,10 @@
 
 <script>
 import Header from '@/components/Header'
-import GetTodo from './components/todo/GetTodo.vue'
-import CurrentTodos from './components/todo/CurrentTodos.vue'
-import CompletedTodos from './components/todo/CompletedTodos.vue'
 
 export default {
     components: {
-        appHeader: Header,
-        GetTodo,
-        CurrentTodos,
-        CompletedTodos
-
+        appHeader: Header
     },
     created () {
         const token = localStorage.getItem('token')
