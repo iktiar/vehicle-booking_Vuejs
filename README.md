@@ -1,6 +1,7 @@
-# vehicle-booking-frontend
+# Frontend  for 'vehicle booking'  application
 
-> front end for vehicle booking
+### This frontend for consumption Backend APIs, developed using [Vue.js](https://vuejs.org/), [Vuex](https://github.com/vuejs/vuex).
+#### for issues and informaiton please contact iktiar2002@gmail.com
 
 ## Build Setup
 
@@ -26,6 +27,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# vehicle-booking-Vuejs
